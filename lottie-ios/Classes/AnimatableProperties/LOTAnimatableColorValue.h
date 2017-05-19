@@ -17,22 +17,6 @@
 
 #import <AppKit/AppKit.h>
 
-typedef NS_ENUM(NSInteger, LOTViewContentMode) {
-    LOTViewContentModeScaleToFill,
-    LOTViewContentModeScaleAspectFit,
-    LOTViewContentModeScaleAspectFill,
-    LOTViewContentModeRedraw,
-    LOTViewContentModeCenter,
-    LOTViewContentModeTop,
-    LOTViewContentModeBottom,
-    LOTViewContentModeLeft,
-    LOTViewContentModeRight,
-    LOTViewContentModeTopLeft,
-    LOTViewContentModeTopRight,
-    LOTViewContentModeBottomLeft,
-    LOTViewContentModeBottomRight,
-};
-
 #endif
 
 @interface LOTAnimatableColorValue : NSObject <LOTAnimatableValue>
