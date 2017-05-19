@@ -21,10 +21,10 @@ FOUNDATION_EXPORT double LottieVersionNumber;
 //! Project version string for Lottie.
 FOUNDATION_EXPORT const unsigned char LottieVersionString[];
 
-#import "LOTAnimationTransitionController.h"
-#import "LOTAnimationView.h"
 #import "LOTModels.h"
 #import "LOTCompositionLayer.h"
 #import "LOTLayerView.h"
+#import "LOTAnimationTransitionController.h"
+#import "LOTAnimationView.h"
 
 #endif /* Lottie_h */
