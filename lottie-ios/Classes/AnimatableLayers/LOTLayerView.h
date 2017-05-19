@@ -6,7 +6,15 @@
 //  Copyright © 2015 Brandon Withrow. All rights reserved.
 //
 
+#if TARGET_OS_IPHONE || TARGET_IPHONE_SIMULATOR
+
+#import <UIKit/UIKit.h>
+
+#else
+
 #import "LOTPlatformCompat.h"
+
+#endif
 #import "LOTAnimatableLayer.h"
 
 #import "LOTModels.h"
