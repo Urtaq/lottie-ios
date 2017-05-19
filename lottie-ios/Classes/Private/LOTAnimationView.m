@@ -424,6 +424,23 @@
   return _animationState.animationDuration;
 }
 
+- (NSArray<CALayer *> *)imageSolidLayers {
+    if (_compLayer) {
+        NSMutableArray<CALayer *> *imageSolidLayers = [NSMutableArray array];
+        NSArray<LOTLayerView *> *layerViews = _compLayer.layerViews;
+        if (layerViews) {
+            for (LOTLayerView *layerView in layerViews) {
+                if (layerView.imageSolidLayer) {
+                    [imageSolidLayers addObject: layerView.imageSolidLayer];
+                }
+            }
+        }
+
+        return imageSolidLayers;
+    }
+    return nil;
+}
+
 # pragma mark - Overrides
 
 #if TARGET_OS_IPHONE || TARGET_IPHONE_SIMULATOR

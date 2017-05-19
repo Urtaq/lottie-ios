@@ -12,6 +12,8 @@
 @class LOTLayerGroup;
 @class LOTAssetGroup;
 
+@class LOTLayerView;
+
 @interface LOTCompositionLayer : CALayer
 
 - (instancetype)initWithLayerGroup:(LOTLayerGroup *)layerGroup
@@ -23,6 +25,6 @@
 
 - (void)layoutCustomChildLayers;
 
-- (NSArray *)layerViews;
+@property (nonatomic, readonly) NSArray<LOTLayerView *> *layerViews;
 
 @end

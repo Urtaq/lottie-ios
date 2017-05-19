@@ -104,8 +104,8 @@
   _layerNameMap = layerNameMap;
 }
 
-- (NSArray *)layerViews {
-    NSMutableArray *layers = [NSMutableArray array];
+- (NSArray<LOTLayerView *> *)layerViews {
+    NSMutableArray<LOTLayerView *> *layers = [NSMutableArray array];
     for (NSNumber* key in [_layerMap allKeys]) {
         [layers addObject:_layerMap[key]];
     }

@@ -32,7 +32,7 @@ For the first time, designers can create and ship beautiful animations without a
   #   'lottie-ios' => ['lottie-ios/Assets/*.png']
   # }
 
-  s.public_header_files = 'lottie-ios/Classes/PublicHeaders/*.h'
+#  s.public_header_files = 'lottie-ios/Classes/PublicHeaders/*.h'
   s.ios.frameworks = 'UIKit'
   s.osx.frameworks = ['AppKit', 'CoreVideo']
   s.module_name = 'Lottie'

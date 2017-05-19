@@ -10,7 +10,10 @@
 #import "LOTAnimationView_Compat.h"
 
 typedef void (^LOTAnimationCompletionBlock)(BOOL animationFinished);
+
 @class LOTComposition;
+@class LOTLayerView;
+
 @interface LOTAnimationView : LOTView
 
 + (instancetype)animationNamed:(NSString *)animationName NS_SWIFT_NAME(init(name:));
@@ -20,6 +23,7 @@ typedef void (^LOTAnimationCompletionBlock)(BOOL animationFinished);
 - (instancetype)initWithContentsOfURL:(NSURL *)url;
 
 @property (nonatomic, readonly) LOTComposition *sceneModel;
+@property (nonatomic, readonly) NSArray<CALayer *> *imageSolidLayers;
 
 @property (nonatomic, readonly) BOOL isAnimationPlaying;
 @property (nonatomic, assign) BOOL loopAnimation;
