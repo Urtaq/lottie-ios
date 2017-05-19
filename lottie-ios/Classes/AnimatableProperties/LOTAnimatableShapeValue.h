@@ -7,8 +7,18 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "LOTPlatformCompat.h"
 #import "LOTAnimatableValue.h"
+#import "TargetConditionals.h"
+
+#if TARGET_OS_IPHONE || TARGET_IPHONE_SIMULATOR
+
+#import <UIKit/UIKit.h>
+
+#else
+
+#import "LOTPlatformCompat.h"
+
+#endif
 
 @interface LOTAnimatableShapeValue : NSObject <LOTAnimatableValue>
 
