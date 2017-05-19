@@ -203,7 +203,7 @@
 		84FE13171E4C15A1009B157C /* LOTAnimationTransitionController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 62CA59C41E3C179F002D7188 /* LOTAnimationTransitionController.h */; };
 		84FE13181E4C15A1009B157C /* LOTAnimationView_Compat.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2DBA16351B4FA408937A16CE /* LOTAnimationView_Compat.h */; };
 		84FE13191E4C15A1009B157C /* Lottie.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 62CA59C61E3C179F002D7188 /* Lottie.h */; };
-		9780EC041ECECA2500F26C4C /* LOTModels.h in Headers */ = {isa = PBXBuildFile; fileRef = 9780EC031ECECA2500F26C4C /* LOTModels.h */; };
+		9780EC041ECECA2500F26C4C /* LOTModels.h in Headers */ = {isa = PBXBuildFile; fileRef = 9780EC031ECECA2500F26C4C /* LOTModels.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9780EC051ECEE40F00F26C4C /* LOTModels.h in Headers */ = {isa = PBXBuildFile; fileRef = 9780EC031ECECA2500F26C4C /* LOTModels.h */; };
 		FA1F5AA01E42B52800FF36BF /* LOTAnimationView.h in Headers */ = {isa = PBXBuildFile; fileRef = FA1F5A9F1E42B52800FF36BF /* LOTAnimationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA1F5AA11E42B52800FF36BF /* LOTAnimationView.h in Headers */ = {isa = PBXBuildFile; fileRef = FA1F5A9F1E42B52800FF36BF /* LOTAnimationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
