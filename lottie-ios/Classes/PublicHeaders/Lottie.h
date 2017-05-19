@@ -24,5 +24,7 @@ FOUNDATION_EXPORT const unsigned char LottieVersionString[];
 #import "LOTAnimationTransitionController.h"
 #import "LOTAnimationView.h"
 #import "LOTModels.h"
+#import "LOTCompositionLayer.h"
+#import "LOTLayerView.h"
 
 #endif /* Lottie_h */

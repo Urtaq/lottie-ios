@@ -20,4 +20,6 @@
 @property (nonatomic, readonly) LOTLayer *layerModel;
 @property (nonatomic, assign) BOOL debugModeOn;
 
+@property (nonatomic, readonly) CALayer *imageSolidLayer;
+
 @end

@@ -23,4 +23,6 @@
 
 - (void)layoutCustomChildLayers;
 
+- (NSArray *)layerViews;
+
 @end

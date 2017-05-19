@@ -104,6 +104,14 @@
   _layerNameMap = layerNameMap;
 }
 
+- (NSArray *)layerViews {
+    NSMutableArray *layers = [NSMutableArray array];
+    for (NSNumber* key in [_layerMap allKeys]) {
+        [layers addObject:_layerMap[key]];
+    }
+    return [NSArray arrayWithArray:layers];
+}
+
 - (void)layoutCustomChildLayers {
   if (!_customLayers.count) {
     return;
