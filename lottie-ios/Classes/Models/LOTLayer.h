@@ -7,7 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "TargetConditionals.h"
+
+#if TARGET_OS_IPHONE || TARGET_IPHONE_SIMULATOR
+
+#import <UIKit/UIKit.h>
+
+#else
+
 #import "LOTPlatformCompat.h"
+
+#endif
 
 @class LOTShapeGroup;
 @class LOTMask;
