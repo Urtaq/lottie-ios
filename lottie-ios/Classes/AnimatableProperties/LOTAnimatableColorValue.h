@@ -9,13 +9,15 @@
 #import <Foundation/Foundation.h>
 #import <QuartzCore/QuartzCore.h>
 #import "LOTAnimatableValue.h"
+#import "TargetConditionals.h"
+
 #if TARGET_OS_IPHONE || TARGET_IPHONE_SIMULATOR
 
 #import <UIKit/UIKit.h>
 
 #else
 
-#import <AppKit/AppKit.h>
+#import "LOTPlatformCompat.h"
 
 #endif
 
