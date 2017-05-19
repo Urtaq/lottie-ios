@@ -9,7 +9,31 @@
 #import <Foundation/Foundation.h>
 #import <QuartzCore/QuartzCore.h>
 #import "LOTAnimatableValue.h"
-#import "LOTPlatformCompat.h"
+#if TARGET_OS_IPHONE || TARGET_IPHONE_SIMULATOR
+
+#import <UIKit/UIKit.h>
+
+#else
+
+#import <AppKit/AppKit.h>
+
+typedef NS_ENUM(NSInteger, LOTViewContentMode) {
+    LOTViewContentModeScaleToFill,
+    LOTViewContentModeScaleAspectFit,
+    LOTViewContentModeScaleAspectFill,
+    LOTViewContentModeRedraw,
+    LOTViewContentModeCenter,
+    LOTViewContentModeTop,
+    LOTViewContentModeBottom,
+    LOTViewContentModeLeft,
+    LOTViewContentModeRight,
+    LOTViewContentModeTopLeft,
+    LOTViewContentModeTopRight,
+    LOTViewContentModeBottomLeft,
+    LOTViewContentModeBottomRight,
+};
+
+#endif
 
 @interface LOTAnimatableColorValue : NSObject <LOTAnimatableValue>
 
