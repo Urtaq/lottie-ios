@@ -19,7 +19,7 @@ typedef void (^LOTAnimationCompletionBlock)(BOOL animationFinished);
 
 - (instancetype)initWithContentsOfURL:(NSURL *)url;
 
-@property (nonatomic, readonly) LOTComposition * _Nonnull sceneModel;
+@property (nonatomic, readonly) LOTComposition *sceneModel;
 
 @property (nonatomic, readonly) BOOL isAnimationPlaying;
 @property (nonatomic, assign) BOOL loopAnimation;
