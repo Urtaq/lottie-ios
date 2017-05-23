@@ -19,6 +19,9 @@
 
 #import "LOTModels.h"
 
+extern const NSString *kLOTAssetImageName;
+extern const NSString *kLOTImageSolidLayer;
+
 @interface LOTLayerView : LOTAnimatableLayer
 
 - (instancetype)initWithModel:(LOTLayer *)model inLayerGroup:(LOTLayerGroup *)layerGroup;
@@ -28,6 +31,6 @@
 @property (nonatomic, readonly) LOTLayer *layerModel;
 @property (nonatomic, assign) BOOL debugModeOn;
 
-@property (nonatomic, readonly) CALayer *imageSolidLayer;
+@property (nonatomic, readonly) NSDictionary<NSString *, CALayer *> *imageSolidLayer;
 
 @end

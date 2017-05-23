@@ -23,7 +23,7 @@ typedef void (^LOTAnimationCompletionBlock)(BOOL animationFinished);
 - (instancetype)initWithContentsOfURL:(NSURL *)url;
 
 @property (nonatomic, readonly) LOTComposition *sceneModel;
-@property (nonatomic, readonly) NSArray<CALayer *> *imageSolidLayers;
+@property (nonatomic, readonly) NSArray<NSDictionary *> *imageSolidLayers;
 
 @property (nonatomic, readonly) BOOL isAnimationPlaying;
 @property (nonatomic, assign) BOOL loopAnimation;

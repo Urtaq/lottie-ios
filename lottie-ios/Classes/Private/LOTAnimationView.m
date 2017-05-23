@@ -424,9 +424,9 @@
   return _animationState.animationDuration;
 }
 
-- (NSArray<CALayer *> *)imageSolidLayers {
+- (NSArray<NSDictionary *> *)imageSolidLayers {
     if (_compLayer) {
-        NSMutableArray<CALayer *> *imageSolidLayers = [NSMutableArray array];
+        NSMutableArray<NSDictionary *> *imageSolidLayers = [NSMutableArray array];
         NSArray<LOTLayerView *> *layerViews = _compLayer.layerViews;
         if (layerViews) {
             for (LOTLayerView *layerView in layerViews) {

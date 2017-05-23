@@ -15,6 +15,9 @@
 #import "LOTMaskLayer.h"
 #import "CGGeometry+LOTAdditions.h"
 
+const NSString *kLOTAssetImageName = @"LOTAssetImageName";
+const NSString *kLOTImageSolidLayer = @"LOTImageSolidLayer";
+
 @interface LOTParentLayer : LOTAnimatableLayer
 
 - (instancetype)initWithParentModel:(LOTLayer *)parent;
@@ -323,7 +326,9 @@
     if (image) {
       _childSolid.contents = (__bridge id _Nullable)(image.CGImage);
 
-        _imageSolidLayer = _childSolid;
+        _imageSolidLayer = [NSDictionary dictionaryWithObjectsAndKeys: components.firstObject, kLOTAssetImageName,
+                            _childSolid, kLOTImageSolidLayer
+                            , nil];
     } else {
       NSLog(@"%s: Warn: image not found: %@", __PRETTY_FUNCTION__, components.firstObject);
     }
