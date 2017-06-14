@@ -1,3 +1,11 @@
+# What is the purpose of this?
+
+This is the extension of Lottie-iOS for getting some properties from LOTAnimationView.  
+Using the properties, You can customize the LOTAnimationView's layers or contents.  
+Basically the features are same with the original.  
+
+======================================================================================
+
 # Lottie for iOS, MacOS (and [Android](https://github.com/airbnb/lottie-android) and [React Native](https://github.com/airbnb/lottie-react-native))
 
 Lottie is a mobile library for Android and iOS that parses [Adobe After Effects](http://www.adobe.com/products/aftereffects.html) animations exported as json with [bodymovin](https://github.com/bodymovin/bodymovin) and renders the vector animations natively on mobile and through React Native!
