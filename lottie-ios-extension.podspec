@@ -7,20 +7,23 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'lottie-ios'
+  s.name             = 'lottie-ios-extension'
   s.version          = '1.5.1'
-  s.summary          = 'Used to natively render vector animations exported from After Effects.'
+  s.summary          = 'extension of Lottie-iOS for getting some properties to customize LOTAnimationView'
 
   s.description      = <<-DESC
+This is the extension of Lottie-iOS for getting some properties from LOTAnimationView.
+Basically the features are same with the original.
+
 Lottie is a mobile library for Android and iOS that parses Adobe After Effects animations exported as json with bodymovin and renders the vector animations natively on mobile and through React Native!
 
 For the first time, designers can create and ship beautiful animations without an enginineer painstakingly recreating it be hand. Since the animation is backed by JSON they are extremely small in size but can be large in complexity! Animations can be played, resized, looped, sped up, slowed down, and even interactively scrubbed.
                        DESC
 
-  s.homepage         = 'https://github.com/airbnb/lottie-ios'
+  s.homepage         = 'https://github.com/jegumhon/lottie-ios'
   s.license          = { :type => 'Apache', :file => 'LICENSE' }
-  s.author           = { 'Brandon Withrow' => 'buba447@gmail.com' }
-  s.source           = { :git => 'https://github.com/airbnb/lottie-ios.git', :tag => s.version.to_s }
+  s.author           = { 'Urtaq' => 'jegumhon@gmail.com' }
+  s.source           = { :git => 'https://github.com/jegumhon/lottie-ios.git', :branch => "patch" }
 
   s.ios.deployment_target = '8.0'
   s.osx.deployment_target = '10.10'
@@ -35,6 +38,6 @@ For the first time, designers can create and ship beautiful animations without a
 #  s.public_header_files = 'lottie-ios/Classes/PublicHeaders/*.h'
   s.ios.frameworks = 'UIKit'
   s.osx.frameworks = ['AppKit', 'CoreVideo']
-  s.module_name = 'Lottie'
+  s.module_name = 'LottieEx'
   s.header_dir = 'Lottie'
 end
