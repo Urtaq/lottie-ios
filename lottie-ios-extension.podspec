@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'lottie-ios-extension'
-  s.version          = '1.5.1'
+  s.version          = '1.5.1.1'
   s.summary          = 'extension of Lottie-iOS for getting some properties to customize LOTAnimationView'
 
   s.description      = <<-DESC
