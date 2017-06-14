@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FAE1F79C1E428CBE002E0974"
+               BlueprintIdentifier = "62CA59B71E3C173B002D7188"
                BuildableName = "Lottie.framework"
-               BlueprintName = "Lottie_macOS"
-               ReferencedContainer = "container:Lottie.xcodeproj">
+               BlueprintName = "LottieEx_iOS"
+               ReferencedContainer = "container:LottieEx.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,10 +45,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FAE1F79C1E428CBE002E0974"
+            BlueprintIdentifier = "62CA59B71E3C173B002D7188"
             BuildableName = "Lottie.framework"
-            BlueprintName = "Lottie_macOS"
-            ReferencedContainer = "container:Lottie.xcodeproj">
+            BlueprintName = "LottieEx_iOS"
+            ReferencedContainer = "container:LottieEx.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -63,10 +63,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FAE1F79C1E428CBE002E0974"
+            BlueprintIdentifier = "62CA59B71E3C173B002D7188"
             BuildableName = "Lottie.framework"
-            BlueprintName = "Lottie_macOS"
-            ReferencedContainer = "container:Lottie.xcodeproj">
+            BlueprintName = "LottieEx_iOS"
+            ReferencedContainer = "container:LottieEx.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

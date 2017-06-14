@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0820"
+   LastUpgradeVersion = "0830"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "62CA59B71E3C173B002D7188"
-               BuildableName = "Lottie.framework"
-               BlueprintName = "Lottie_iOS"
-               ReferencedContainer = "container:Lottie.xcodeproj">
+               BlueprintIdentifier = "84FE12EE1E4C1485009B157C"
+               BuildableName = "libLottie.a"
+               BlueprintName = "LottieExLibraryIOS"
+               ReferencedContainer = "container:LottieEx.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,10 +45,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "62CA59B71E3C173B002D7188"
-            BuildableName = "Lottie.framework"
-            BlueprintName = "Lottie_iOS"
-            ReferencedContainer = "container:Lottie.xcodeproj">
+            BlueprintIdentifier = "84FE12EE1E4C1485009B157C"
+            BuildableName = "libLottie.a"
+            BlueprintName = "LottieExLibraryIOS"
+            ReferencedContainer = "container:LottieEx.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -63,10 +63,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "62CA59B71E3C173B002D7188"
-            BuildableName = "Lottie.framework"
-            BlueprintName = "Lottie_iOS"
-            ReferencedContainer = "container:Lottie.xcodeproj">
+            BlueprintIdentifier = "84FE12EE1E4C1485009B157C"
+            BuildableName = "libLottie.a"
+            BlueprintName = "LottieExLibraryIOS"
+            ReferencedContainer = "container:LottieEx.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
