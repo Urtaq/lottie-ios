@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "84FE12EE1E4C1485009B157C"
-               BuildableName = "libLottie.a"
+               BuildableName = "libLottieEx.a"
                BlueprintName = "LottieExLibraryIOS"
                ReferencedContainer = "container:LottieEx.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "84FE12EE1E4C1485009B157C"
-            BuildableName = "libLottie.a"
+            BuildableName = "libLottieEx.a"
             BlueprintName = "LottieExLibraryIOS"
             ReferencedContainer = "container:LottieEx.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "84FE12EE1E4C1485009B157C"
-            BuildableName = "libLottie.a"
+            BuildableName = "libLottieEx.a"
             BlueprintName = "LottieExLibraryIOS"
             ReferencedContainer = "container:LottieEx.xcodeproj">
          </BuildableReference>
