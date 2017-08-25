@@ -8,7 +8,7 @@
 
 #import "AnimationExplorerViewController.h"
 #import "JSONExplorerViewController.h"
-#import <Lottie/Lottie.h>
+#import <LottieEx/LottieEx.h>
 
 typedef enum : NSUInteger {
   ViewBackgroundColorWhite,
